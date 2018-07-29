@@ -2,21 +2,16 @@
 {
     public class Counter
     {
-        private int counter;
+        public int CounterValue { get; private set; }
 
         public Counter()
         {
-            counter = 1;
+            CounterValue = 1;
         }
 
         public void IncrementCounter()
         {
-            counter++;
-        }
-
-        public int GetCount()
-        {
-            return counter;
+            CounterValue++;
         }
     }
 }

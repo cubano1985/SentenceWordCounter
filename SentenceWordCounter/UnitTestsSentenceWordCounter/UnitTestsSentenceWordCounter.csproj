@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UnitTestsCounter.cs" />
     <Compile Include="UnitTestsSentenceUseCase.cs" />
     <Compile Include="UnitTestsWordsUseCase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

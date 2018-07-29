@@ -48,8 +48,8 @@ namespace UnitTestsSentenceWordCounter
 
             Assert.IsNotNull(firstCounter, "Counter for a word was not returned.");
             Assert.IsNotNull(secondCounter, "Counter for a word was not returned.");
-            Assert.AreEqual(expectedCount, firstCounter.GetCount(), "Count was not right.");
-            Assert.AreEqual(expectedCount, secondCounter.GetCount(), "Count was not right.");
+            Assert.AreEqual(expectedCount, firstCounter.CounterValue, "Count was not right.");
+            Assert.AreEqual(expectedCount, secondCounter.CounterValue, "Count was not right.");
         }
     }
 }
