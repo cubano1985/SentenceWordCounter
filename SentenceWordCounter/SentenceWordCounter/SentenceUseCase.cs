@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace SentenceWordCounter
 {
-    internal static class SentenceUseCase
+    public static class SentenceUseCase
     {
         public static List<string> SplitSentenceToWords(string sentencePreparedToCount)
         {

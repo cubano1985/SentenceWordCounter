@@ -1,6 +1,6 @@
 ﻿namespace SentenceWordCounter
 {
-    internal class Counter
+    public class Counter
     {
         private int counter;
 

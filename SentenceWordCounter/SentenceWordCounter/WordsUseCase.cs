@@ -2,7 +2,7 @@
 
 namespace SentenceWordCounter
 {
-    internal static class WordsUseCase
+    public static class WordsUseCase
     {
         static char[] signsToRemove = { '.', ',', '?', '!', '-', ' ', '*' };
 

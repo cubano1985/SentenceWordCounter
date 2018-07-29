@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentenceWordCounter", "SentenceWordCounter\SentenceWordCounter.csproj", "{4A0D7F07-1716-4709-8656-1DCFB7ADF591}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsSentenceWordCounter", "UnitTestsSentenceWordCounter\UnitTestsSentenceWordCounter.csproj", "{B1A6F8B7-20D8-4B19-A9D8-98D97EF5F0D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4A0D7F07-1716-4709-8656-1DCFB7ADF591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A0D7F07-1716-4709-8656-1DCFB7ADF591}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A0D7F07-1716-4709-8656-1DCFB7ADF591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A6F8B7-20D8-4B19-A9D8-98D97EF5F0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A6F8B7-20D8-4B19-A9D8-98D97EF5F0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A6F8B7-20D8-4B19-A9D8-98D97EF5F0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A6F8B7-20D8-4B19-A9D8-98D97EF5F0D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
