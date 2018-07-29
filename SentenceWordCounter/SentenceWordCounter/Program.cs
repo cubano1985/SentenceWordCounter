@@ -29,7 +29,7 @@ namespace SentenceWordCounter
 
             foreach (var word in countedWords)
             {
-                Console.WriteLine(word.Key + " : " + word.Value.CounterValue + " times;");
+                Console.WriteLine(word.Key + " - " + word.Value.CounterValue);
             }
         }
     }
