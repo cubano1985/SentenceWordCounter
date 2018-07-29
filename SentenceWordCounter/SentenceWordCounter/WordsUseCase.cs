@@ -2,11 +2,11 @@
 
 namespace SentenceWordCounter
 {
-    public static class WordsUseCase
+    internal static class WordsUseCase
     {
         static char[] signsToRemove = { '.', ',', '?', '!', '-', ' ', '*' };
 
-        public static Dictionary<string, Counter> CountWords(List<string> words)
+        internal static Dictionary<string, Counter> CountWords(List<string> words)
         {
             List<string> trimmedWords = TrimWords(words);
 
